@@ -1,0 +1,32 @@
+body{
+    color:rgb(29, 72, 72);
+    background:#81b0df;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    word-spacing: .5em;
+}
+
+main{
+    text-indent: 1em;
+}
+
+.format{
+    color:#e912a1;
+    font-size:2em;
+}
+
+#format1{
+    background-color: rgb(255,228,196);
+}
+
+main h1{
+    letter-spacing: 1em;
+}

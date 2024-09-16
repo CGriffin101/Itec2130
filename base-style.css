@@ -1,15 +1,31 @@
+html{
+    /*width: 95%;*/
+    height: max-content;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('dark-red-roses-heather-paich.jpg');
+
+
+}
+
 body{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
     background-color: #f6c792;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
-
-
+    box-shadow: #380404 1em 1em 10em;
+    border-radius: 10px;
+    border: 3px solid #040404;
+    margin: 2% 5% 2% 5%;
 }
 
 nav {
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 3px solid #040404;
     border-radius: 10px;
     background-color: #761405;

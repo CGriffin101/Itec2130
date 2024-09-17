@@ -75,6 +75,9 @@ dd{
     margin-bottom: 4px;
 }
 
+#cssValidator {
+    border: none;
+}
 #pageTitle{
     text-align: center;
     text-transform: uppercase;

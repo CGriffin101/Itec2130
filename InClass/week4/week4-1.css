@@ -1,0 +1,28 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: repeat-x;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: #d7d09f;
+    background-image: linear-gradient(#FFFFFF, #d7d09f);
+    color: #000;
+    margin: auto;
+    height: 800px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 15px #999999;
+}
+
+h1{
+    border: 5px #888889 solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+img {
+    padding: 5px;
+    border: 1px solid #000;
+}

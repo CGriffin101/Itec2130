@@ -6,7 +6,6 @@ html{
     justify-content: center;
     background-image: url('dark-red-roses-heather-paich.jpg');
 
-
 }
 
 body{
@@ -29,6 +28,8 @@ nav {
     border: 3px solid #040404;
     border-radius: 10px;
     background-color: #761405;
+    flex-wrap: wrap;
+    row-gap: 1em;
 }
 
 a {

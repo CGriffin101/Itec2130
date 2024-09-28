@@ -28,7 +28,7 @@ nav a{
     display: block;
     background-color: #3b945e;
     border-bottom: 1px solid #ffffff;
-    background-image: url("sprites.gif");
+    background-image: url("images/sprites.gif");
     background-repeat: no-repeat;
     background-position: right 0;
 }

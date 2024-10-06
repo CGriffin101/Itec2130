@@ -1,0 +1,72 @@
+/*
+Connor Griffin Lab 2
+ */
+
+body {
+    background-color: #06392c;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+}
+
+span{
+    font-weight: bold;
+    color: #06392c;
+}
+
+#bodyWrapper {
+    box-shadow: 3px 3px 5px #e4c575;
+}
+
+h2 {
+    color: #e4c575;
+}
+
+h1{
+    font-weight: bold;
+    padding: 0;
+
+}
+
+header {
+    background-color: #000033;
+    color: white;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 100%;
+}
+
+nav {
+    text-align: left;
+    background-color: #E5C06A;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    font-weight: bold;
+}
+#main-image {
+    width: 100%;
+    height: 300px;
+    background: url('FortYargo2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#content {
+    padding: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

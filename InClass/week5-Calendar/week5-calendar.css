@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 90%;
+    table-layout: fixed;
+}
+
+.month {
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+    justify-content: space-between;
+}
+
+th{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.weekdays th {
+    background-color: lightgray;
+}
+
+.days td{
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    padding: 20px;
+    height: 15%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}

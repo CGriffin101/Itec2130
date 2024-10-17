@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week9-1</title>
+</head>
+<body>
+    <header>Chapter 7 Forms</header>
+<nav></nav>
+<main>
+    <form method="get">
+        <fieldset> <legend>Personal Information</legend>
+            <label>First Name:
+                <input type="text" name="fname" id="fname" placeholder="John" tabindex="1">
+            </label><br>
+            <label>Last Name:
+                <input type="text" name="lname" id="lname" placeholder="Doe" tabindex="2">
+            </label><br>
+            <label>Password:
+                <input type="text" name="pass" id="pass" tabindex="3">
+            </label><br>
+            <input type="hidden" name="hide" id="hide" value="yes" tabindex="4">
+        </fieldset>
+        <fieldset> <legend>General Information</legend>
+            <label>State
+                <select name="state" id="state" tabindex="5">
+                    <option value="Georgia">GA</option>
+                    <option value="California">CA</option>
+                    <option>NC</option>
+                </select>
+            </label><br>
+            <label>Hobbies</label><br>
+            <label>Sports
+                <input type="checkbox" name="c1" id="c1" value="Sports" checked>
+            </label><br>
+            <label>Music
+                <input type="checkbox" name="c2" id="c2" value="Sports">
+            </label><br>
+            <label>Dance
+                <input type="checkbox" name="c3" id="c3" value="Sports">
+            </label><br>
+            <label>Music A
+                <input type="radio" name="r1" id="r1" value="A" checked>
+            </label><br>
+            <label>Music B
+                <input type="radio" name="r2" id="r2" value="B">
+            </label><br>
+
+            <label>Comments
+                <textarea>
+                    Comments here...
+                </textarea>
+            </label><br>
+        </fieldset>
+        <input type="submit" name="s1" id="s1" value="SignUp">
+        <input type="reset" name="rset" id="rset" value="clear"><br>
+        <input type="button" name="btn" id="btn" value="undecided" onclick="">
+        <input type="image" name="i1" id="i1" src="../week4/images/favicon.ico" alt="">
+    </form>
+</main>
+</body>
+</html>

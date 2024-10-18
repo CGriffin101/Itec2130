@@ -6,7 +6,4 @@ label { float: left; width: 100px; clear: left; text-align: right;
 
 input, textarea { margin-top: 10px; display: block; }
 
-textarea{
-    rows: 4;
-}
 /*#mySubmit { margin-left: 110px; }*/

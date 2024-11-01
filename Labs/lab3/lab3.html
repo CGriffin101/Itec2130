@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    Connor Griffin Lab 3-->
+    <meta charset="UTF-8">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<img src="logo.svg" alt="Georgia Gwinnett College logo">
+<h1>Student Transcript</h1>
+<h2>Student Name: Connor Griffin</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Course ID</th>
+        <th>Course Title</th>
+        <th>Credit Hours</th>
+        <th>Grade</th>
+    </tr>
+    </thead>
+    <tr>
+        <th class="semesterRow" colspan="4">Fall 2023</th>
+    </tr>
+    <tr>
+        <td>ITEC 2150</td>
+        <td>Intermediate Programming</td>
+        <td>4</td>
+        <td>93</td>
+    </tr>
+    <tr>
+        <td>ITEC 3200</td>
+        <td>Intro to Databases</td>
+        <td>3</td>
+        <td>96</td>
+    </tr>
+    <tr>
+        <td>CHEM 1212K</td>
+        <td>Principles of Chemistry 2</td>
+        <td>4</td>
+        <td>91</td>
+    </tr>
+    <tr>
+        <td colspan="3">Semester Average</td>
+        <td>
+            <progress id="fallAvg" value="93" max="100"></progress>
+            <label for="fallAvg"> 95 </label>
+        </td>
+    </tr>
+    <tr>
+        <th class="semesterRow" colspan="4">Spring 2024</th>
+    </tr>
+    <tr>
+        <td>ITEC 3150</td>
+        <td>Advanced Programming</td>
+        <td>4</td>
+        <td>97</td>
+    </tr>
+    <tr>
+        <td>ITEC 3860</td>
+        <td>Software Development 1</td>
+        <td>4</td>
+        <td>93</td>
+    </tr>
+    <tr>
+        <td>ITEC 3900</td>
+        <td>Professional Practice and Ethics</td>
+        <td>3</td>
+        <td>99</td>
+    </tr>
+    <tr>
+        <td colspan="3">Semester Average</td>
+        <td>
+
+            <progress id="springAvg" value="96" max="100"></progress>
+            <label for="springAvg"> 96 </label>
+        </td>
+    </tr>
+    <tr id="overAllAvg">
+        <td colspan="3">Overall Average</td>
+        <td>
+            <progress id="overAllAvgBar" value="95.5" max="100"> 95 </progress>
+            <label for="overAllAvgBar"> 95.5 </label>
+        </td>
+    </tr>
+</table>
+<footer>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+             src="http://jigsaw.w3.org/css-validator/images/vcss"
+             alt="Valid CSS!" />
+    </a>
+</p>
+</footer>
+</body>
+</html>

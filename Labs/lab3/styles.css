@@ -1,0 +1,52 @@
+/*connor griffin Lab 3 css*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#overAllAvg{
+    background-color: #06392c;
+    color: white;
+}
+
+img{
+    max-width: 40%;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+.semesterRow{
+    background-color: green;
+    color: white;
+}
+thead tr{
+    background-color: #06392c;
+    color: white;
+}
+tr{
+
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table{
+    background-color: #06392c;
+    color: white;
+    border: 10px solid #06392c;
+    border-collapse: collapse;
+}
+
+progress{
+    -webkit-appearance: none;
+    appearance: none;
+}
+

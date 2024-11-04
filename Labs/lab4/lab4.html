@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>
+        Information Security Awareness Survey
+    </h1>
+</header>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">.>
+<div id="demographicInfo">
+    <h2>1. Demographic Information</h2>
+
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="omittedGender">Do Not Want To Tell</option>
+    </select>
+
+    <br>
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age">
+
+    <br>
+    <label for="level">Level:</label>
+    <select name="level" id="level">
+        <option value="choice" selected="selected">Choose your level at GGC</option>
+        <option value="freshman">Freshman</option>
+        <option value="freshman">Sophomore</option>
+        <option value="freshman">Junior</option>
+        <option value="freshman">Senior</option>
+    </select>
+
+    <br>
+    <label for="school">School:</label>
+    <input list="schoolList" id="school">
+    <datalist id="schoolList">
+        <option value="sst">SST</option>
+        <option value="sb">SB</option>
+        <option value="se">SE</option>
+        <option value="sla">SLA</option>
+    </datalist>
+</div>
+    <div id="securityKnowledge">
+        <h2>2. How do you evaluate your security knowledge?</h2>
+        <label for="secKnowledgeSlider">Choose a score between 1 and 100:</label>
+        <br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="secKnowledgeSlider">
+    </div>
+
+    <div id="virusChoice">
+        <h2>3. Have your computers been infected by virus before?</h2>
+        <input type="radio" id="yesVirus" name="virusBtns" value="yes">
+        <label for="yesVirus">Yes</label>
+        <input type="radio" id="noVirus" name="virusBtns" value="no">
+        <label for="noVirus">No</label>
+    </div>
+
+    <div id="antiVirusBoxes">
+        <h2>4. What anti-virus software do you usually use (you can pick more than one answers)?</h2>
+        <div id="antiVirusGroup1">
+            <input type="checkbox" id="norton" name="norton" value="norton">
+            <label for="norton">Norton</label>
+            <input type="checkbox" id="mcafee" name="mcafee" value="mcafee">
+            <label for="mcafee">McAfee</label>
+            <input type="checkbox" id="kasperski" name="kasperski" value="kasperski">
+            <label for="kasperski">Kasperski</label>
+        </div>
+        <div id="antiVirusGroup2">
+            <input type="checkbox" id="avg" name="avg" value="avg">
+            <label for="avg">AVG</label>
+            <input type="checkbox" id="avast" name="avast" value="avast">
+            <label for="avast">Avast</label>
+            <input type="checkbox" id="malwarebytes" name="malwarebytes" value="malwarebytes">
+            <label for="malwarebytes">Malwarebytes</label>
+        </div>
+        <div id="antiVirusGroup3">
+            <input type="checkbox" id="bitedefender" name="bitedefender" value="bitedefender">
+            <label for="bitedefender">Bitedefender</label>
+            <input type="checkbox" id="webroot" name="webroot" value="webroot">
+            <label for="webroot">Webroot</label>
+            <input type="checkbox" id="trendMicro" name="trendMicro" value="trendMicro">
+            <label for="trendMicro">Trend Micro</label>
+        </div>
+    </div>
+    <div id="agreeAndDisagreeBox">
+        <h2>5. Please rate the following questions from strongly disagree to strongly agree:</h2>
+        <table>
+            <tr>
+                <th>Questions:</th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Neutral</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            <tr>
+                <td>I know how to create a strong password</td>
+                <td><input type="radio" id="strongPasswordSD" name="strongPassword" value="1"></td>
+                <td><input type="radio" id="strongPasswordD" name="strongPassword" value="2"></td>
+                <td><input type="radio" id="strongPasswordN" name="strongPassword" value="3"></td>
+                <td><input type="radio" id="strongPasswordA" name="strongPassword" value="4"></td>
+                <td><input type="radio" id="strongPasswordSA" name="strongPassword" value="5"></td>
+            </tr>
+            <tr>
+                <td>I know how to remove virus from my computer</td>
+                <td><input type="radio" id="removeVirusSD" name="removeVirus" value="1"></td>
+                <td><input type="radio" id="removeVirusD" name="removeVirus" value="2"></td>
+                <td><input type="radio" id="removeVirusN" name="removeVirus" value="3"></td>
+                <td><input type="radio" id="removeVirusA" name="removeVirus" value="4"></td>
+                <td><input type="radio" id="removeVirusSA" name="removeVirus" value="5"></td>
+            </tr>
+            <tr>
+                <td>I know how to remove spyware from my computer</td>
+                <td><input type="radio" id="removeSpywareSD" name="removeSpyware" value="1"></td>
+                <td><input type="radio" id="removeSpywareD" name="removeSpyware" value="2"></td>
+                <td><input type="radio" id="removeSpywareN" name="removeSpyware" value="3"></td>
+                <td><input type="radio" id="removeSpywareA" name="removeSpyware" value="4"></td>
+                <td><input type="radio" id="removeSpywareSA" name="removeSpyware" value="5"></td>
+            </tr>
+            <tr>
+                <td>I know how to secure my wireless network at home</td>
+                <td><input type="radio" id="secureNetworkSD" name="secureNetwork" value="1"></td>
+                <td><input type="radio" id="secureNetworkD" name="secureNetwork" value="2"></td>
+                <td><input type="radio" id="secureNetworkN" name="secureNetwork" value="3"></td>
+                <td><input type="radio" id="secureNetworkA" name="secureNetwork" value="4"></td>
+                <td><input type="radio" id="secureNetworkSA" name="secureNetwork" value="5"></td>
+            </tr>
+            <tr>
+                <td>I know how to protect my personal information when surfing the Internet</td>
+                <td><input type="radio" name="protectInfo" value="1"></td>
+                <td><input type="radio" name="protectInfo" value="2"></td>
+                <td><input type="radio" name="protectInfo" value="3"></td>
+                <td><input type="radio" name="protectInfo" value="4"></td>
+                <td><input type="radio" name="protectInfo" value="5"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="submitAndResetBtns">
+        <input type="submit">
+        <input type="reset">
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0066FF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select, input {
+    margin-bottom: 10px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    background: #ddd;
+}
+
+
+table {
+    margin-top: 10px;
+    row-gap: 10px;
+    table-layout: auto;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+tr input {
+    background-color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+td:nth-child(1) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+
+#antiVirusBoxes {
+    min-width: 150px;
+    padding: 5px;
+}

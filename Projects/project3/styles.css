@@ -96,8 +96,6 @@ h1 {
 img{
     width: 14em;
     display: block;
-    border: 5px solid saddlebrown;
-    border-radius: 1em;
 }
 
 #slidingImgContainer{
@@ -168,4 +166,9 @@ img{
 #romanRave{
     -webkit-filter: invert(0);
     /*filter: invert(1);*/
+}
+
+#funThingsToDo img{
+    border: 5px solid saddlebrown;
+    border-radius: 1em;
 }

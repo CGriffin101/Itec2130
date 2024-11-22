@@ -2,7 +2,7 @@ $(document).ready(() => {
     document.getElementById("paraContainer")
         .innerHTML = getInnerHTML("intro-para")
     setTimeout(() => {
-        alert('Please visit Rome!');
+        alert('(Flashing Light Warning for bottom of page) Please visit Rome!');
     }, 50);
 
     myMove("firstAnimation");
@@ -52,7 +52,7 @@ function myMove(containerId) {
 
 function invertColors() {
     var elem = document.getElementById("romanRave");
-    id = setInterval(frame, 50);
+    id = setInterval(frame, 1000);
     var number = 0;
     function frame() {
         elem.style.filter = `invert(${number++ % 2}`

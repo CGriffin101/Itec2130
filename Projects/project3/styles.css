@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("images/rome-birdseye.jpg");
+    background-size: 100%;
+    background-color: tan;
+    color: saddlebrown;
+    height: 100%;
+}
+
+#left-column{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: tan;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#left-column a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: saddlebrown;
+    display: block;
+    font-weight: bold;
+}
+#right-column{
+    width: 100%;
+}
+#main-container {
+    display: flex;
+    flex: 1;
+    margin: 1em;
+    margin-left: 170px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 1em;
+    border: 15px solid saddlebrown;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#intro-para {
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#paraContainer {
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: 5px solid saddlebrown;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.btnParaContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+#paraBtnContainer{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#paraBtnContainer button {
+    flex: none;
+    height: 5em;
+    width: 10em;
+    border: 5px solid saddlebrown;
+    border-radius: 1em;
+    background-color: white;
+    color: saddlebrown;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+img{
+    width: 14em;
+    display: block;
+    border: 5px solid saddlebrown;
+    border-radius: 1em;
+}
+
+#slidingImgContainer{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.panel{
+    display: none;
+    border: .5em solid saddlebrown;
+    border-radius: 1em;
+}
+
+.flip{
+    flex: none;
+    margin-bottom: 1em;
+    height: 5em;
+    width: 10em;
+    border: 6px solid saddlebrown;
+    border-radius: 1em;
+    background-color: white;
+    color: saddlebrown;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+#restaurants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.myContainer {
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.myAnimation {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    border: 5px solid saddlebrown;
+    border-radius: 1em;
+}
+
+.box{
+    width: 300px;
+    height: auto;
+    background-color: white;
+}
+
+.activityContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+#museumPic{
+    width: 10em;
+    height: auto;
+}
+
+#romanRave{
+    -webkit-filter: invert(0);
+    /*filter: invert(1);*/
+}

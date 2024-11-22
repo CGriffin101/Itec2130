@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 3</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="project3.js"></script>
+</head>
+<body>
+
+  
+  <div id="main-container">
+    <header></header>
+    <div id="left-column">
+        <nav id="nav-menu">
+          <a href="#information-section">Information</a>
+          <a href="#site-seeing-section">Site Seeing</a>
+          <a href="#rest-heading">Restaurants</a>
+          <a href="#funThingsToDo">Fun Things to do in Rome</a>
+        </nav>
+      </div>
+      <div id="right-column">
+      <h1>Rome!</h1>
+      <h2 id="information-section">Information</h2>
+      <nav id="paraBtnContainer">
+        <button onclick="toggleContainerHtml('intro-para')">Introduction</button>
+        <button onclick="toggleContainerHtml('para-2')">History</button>
+        <button onclick="toggleContainerHtml('para-3')">Transportation</button>
+        <button onclick="toggleContainerHtml('para-4')">Popular Attractions</button>
+      </nav>
+      <br>
+      <div id="paraContainer"></div>
+      <h2 id="site-seeing-section">Site Seeing (Click to Show)</h2>
+      <div id="slidingImgContainer">
+        <div>
+          <button class="flip" id="flip-colosseum">Colosseum</button>
+          <div class="panel" id="panel-colosseum"><img src="images/Colosseum.jpg" alt="roman colosseum"></div>
+        </div>
+        <div>
+          <button class="flip" id="flip-pantheon">Pantheon</button>
+          <div class="panel" id="panel-pantheon"><img src="images/pantheon.jpg" alt="roman pantheon"></div>
+        </div>
+        <div>
+          <button class="flip" id="flip-trevi">Trevi Fountain</button>
+          <div class="panel" id="panel-trevi"><img src="images/treviFount.jpg" alt="roman colosseum"></div>
+        </div>
+      </div>
+        <h2 id="rest-heading">Restaurants</h2>
+        <div id="restaurants">
+          <div>
+            <h2>Pane & Salamel</h2>
+            <div class="myContainer" id="firstAnimation">
+              <img src="images/PaneAndSalamel.jpg" alt="Pane and Salamel Restaurant front" class="myAnimation"></img>
+            </div>
+          </div>
+          <div>
+            <h2>da Costantino</h2>
+            <div class="myContainer" id="secondAnimation">
+              <img src="images/daCostantino.png" alt="da Costantino Restaurant front" class="myAnimation"></img>
+            </div>
+          </div>
+          <div>
+            <h2>Armando al Pantheon</h2>
+            <div class="myContainer" id="thirdAnimation">
+              <img src="images/ArmandoAlPantheon.png" alt="Armando al Pantheon Restaurant front" class="myAnimation"></img>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div id="funThingsToDo">
+          <h2>Fun Things to Do in Rome!</h2>
+          <div class="activityContainer">
+            <h4>Visit Museums</h4>
+            <img src="images/museum.png" alt="people inside of roman museum" id="museumPic"></img>
+          </div>
+          <div class="activityContainer">
+            <img src="images/rave.png" alt="rave-in-rom" id="romanRave"></img>
+            <h4>Go to a Rave</h4>
+          </div>
+          <div class="activityContainer">
+            <h4>Spin Around in Circles!</h4>
+            <img src="images/LaughingMan.png" alt="laughing man" class="box"></img>
+          </div>
+        </div>
+        <footer>
+          <br>
+          <p>Connor Griffin, ITEC 2130 Fall 2024</p>
+        </footer>
+      </div>
+  </div>
+</body>
+</html>
